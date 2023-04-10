@@ -58,7 +58,7 @@ public:
         }
 
         for(auto v : listEdges){
-            std::cout << "[" << "(" << v.getDestination() << ")" << v.getValue() << "]\n";
+            std::cout << "[" << "(" << v.getDestination() << ")" << v.getValue() << "]";
         }
 
     }
